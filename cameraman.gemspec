@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Christian Mortaro"]
   s.email       = ["mortaro@towsta.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Single interface to manipulate videos from 3rd party services}
+  s.description = %q{Abstracts the methods from different video services, like Youtube and Redtube}
 
   s.rubyforge_project = "cameraman"
 
