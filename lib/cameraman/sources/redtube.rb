@@ -17,8 +17,6 @@ module Cameraman
         "http://www.redtube.com/#{@id}"
       end
 
-      def method_missing name, *args; nil; end
-
     end
 
   end

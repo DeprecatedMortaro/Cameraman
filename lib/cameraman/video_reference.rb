@@ -7,8 +7,16 @@ module Cameraman
       @item = eval "Cameraman::Sources::#{args[:source]}.new '#{args[:id]}'"
     end
 
-    def method_missing name, *args
-      eval "@item.#{name}(args)"
+    def original_url
+      @iten.original_url
+    end
+
+    def embed
+      @iten.embed
+    end
+
+    def source
+      @iten.class.to_s.split('::').last
     end
 
   end
