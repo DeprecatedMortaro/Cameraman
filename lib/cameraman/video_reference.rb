@@ -8,15 +8,15 @@ module Cameraman
     end
 
     def original_url
-      @iten.original_url
+      @item.original_url
     end
 
     def embed
-      @iten.embed
+      @item.embed
     end
 
     def source
-      @iten.class.to_s.split('::').last
+      @item.class.to_s.split('::').last
     end
 
   end
