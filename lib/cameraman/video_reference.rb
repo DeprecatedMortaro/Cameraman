@@ -19,5 +19,13 @@ module Cameraman
       @item.class.to_s.split('::').last
     end
 
+    def id
+      @item.id
+    end
+
+    def to_s
+      '{"id":"'+id+'","source":"'+source+'"}'
+    end
+
   end
 end
